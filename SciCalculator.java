@@ -106,7 +106,7 @@ public class SciCalculator extends JFrame implements ActionListener {
 
         panel.add(btnPanel, BorderLayout.CENTER);
         panel.add(screen, BorderLayout.NORTH);
-        screen.setEditable(false);
+        screen.setEditable(true);
         add(panel);
         setSize(800, 600);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
